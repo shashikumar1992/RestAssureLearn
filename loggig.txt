@@ -1,0 +1,311 @@
+Request method:	POST
+Request URI:	https://bimhep-qa.bimnetworkstech.com/api/hostedEnrollment/consumerEnrollment
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "emailAddress": "JasperGorczany@gmail.com",
+    "firstName": "Jasper",
+    "lastName": "Gorczany",
+    "pin": "9394",
+    "partnerId": "MTI3",
+    "mobilePhoneNumber": "789-963-4855",
+    "consumerDefinedFields": [
+        "",
+        "AUHW",
+        "022993543",
+        "V",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ]
+}
+HTTP/1.1 200 OK
+Date: Mon, 28 Apr 2025 12:42:36 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 1509
+Connection: keep-alive
+Access-Control-Expose-Headers: Request-Context
+Cache-Control: no-cache
+Content-Encoding: gzip
+Expires: -1
+Pragma: no-cache
+Vary: Accept-Encoding
+X-AspNet-Version: 4.0.30319
+Request-Context: appId=cid-v1:cba57b22-bea6-48bb-a3b8-4c30d76b9899
+X-Powered-By: ASP.NET
+X-Frame-Options: ALLOW-FROM http://localhost:58402/ http://localhost:61309/
+cf-cache-status: DYNAMIC
+Server: cloudflare
+CF-RAY: 9376a3d72b6bff66-BOM
+
+{
+    "status": true,
+    "messages": [
+        "Enrollment status available."
+    ],
+    "notification": "",
+    "payload": {
+        "action_code": 1020,
+        "account_change_code": 0,
+        "redirect": "",
+        "last_redirect": "",
+        "last_fallback": "",
+        "fallback": "",
+        "consumer_id": "140566",
+        "enrollment_id": "39781",
+        "email_address": "jaspergorczany@gmail.com",
+        "consumer_public_key": "LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0KTUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUFvU0JxMTRYOTEyQ3pMdG9FSk9hQQpVU00yb3NJZ0YybkRnSmJMZFVuNDBjY0t5QUM3WkNlOHptN2p0c3k3VUhKWGU5Qy9ZeGh3eXgvellwa29ZWm5DCjZ0NlBRK0RxZEYzeGJ4TVY0ckFsNFY2V0MyaHp0cVVzRFFnK3R1YkxQai9vTFl1QzJ6SjVyVkF2NlRKVjBENm0Kd2VMMWpnbUVkVHpTaStCTm5IaTJ5UXR6L1BUbXdFMEF1NkN5MGRBZ0psZlNDVUdPN0gxQnhlWkhDdWt3WXgxTQp4dkFqYnJ1MFhnWUw1N0RyQmd6cXVIaHZpb3plOGhTTUNodGJkTkFLVGhsRnZNVjZJUTJxQzloYmZNTjJvbWFSCjdHR2JndkFMVnIreEdwQTJLMnliZStpd0VPUXJndGs3SkNsNVJmN1ZSMXRBOCtnZkQyUW5uUDVXOU1uTkFWalgKd1FJREFRQUIKLS0tLS1FTkQgUFVCTElDIEtFWS0tLS0tCg==",
+        "consumerAccessToken": "6896cba3119ae99b93bd97a3c86bbd2a1dc2f460",
+        "itemId": null,
+        "merchant_id": "127000256000017",
+        "fname": "Jasper",
+        "lname": "Gorczany",
+        "bank_source": "",
+        "cdw_action_code": "730",
+        "cdw_redirect": "error",
+        "cdw_messages": [
+            "Deposit and Withdrawal process not allowed."
+        ],
+        "bank_accounts": null,
+        "mobile_phone": "7899634855",
+        "cdw_extended_delay": 0
+    },
+    "partnerCustomerNumber": "65a5daed-7e34-4847-9d29-58f88b46f7dd",
+    "error": null,
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJQYXJ0bmVySWQiOiJNVEkzIiwiQ29uc3VtZXJJZCI6IjE0MDU2NiIsImV4cCI6MTc0NTg0NTk1NiwiaXNzIjoiU3BpcmUiLCJhdWQiOiJDb25zdW1lckVucm9sbG1lbnQifQ.CmJT3ie5IF6Q1aMZ0WpEVjQ3TfTTKeOwFgTl7ZxOQqc"
+}
+Request method:	POST
+Request URI:	https://bimhep-qa.bimnetworkstech.com/api/hostedEnrollment/continueEnrollment
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "partnerId": "MTI3",
+    "state": "NY",
+    "payload": {
+        "publicKey": "LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0KTUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUFvU0JxMTRYOTEyQ3pMdG9FSk9hQQpVU00yb3NJZ0YybkRnSmJMZFVuNDBjY0t5QUM3WkNlOHptN2p0c3k3VUhKWGU5Qy9ZeGh3eXgvellwa29ZWm5DCjZ0NlBRK0RxZEYzeGJ4TVY0ckFsNFY2V0MyaHp0cVVzRFFnK3R1YkxQai9vTFl1QzJ6SjVyVkF2NlRKVjBENm0Kd2VMMWpnbUVkVHpTaStCTm5IaTJ5UXR6L1BUbXdFMEF1NkN5MGRBZ0psZlNDVUdPN0gxQnhlWkhDdWt3WXgxTQp4dkFqYnJ1MFhnWUw1N0RyQmd6cXVIaHZpb3plOGhTTUNodGJkTkFLVGhsRnZNVjZJUTJxQzloYmZNTjJvbWFSCjdHR2JndkFMVnIreEdwQTJLMnliZStpd0VPUXJndGs3SkNsNVJmN1ZSMXRBOCtnZkQyUW5uUDVXOU1uTkFWalgKd1FJREFRQUIKLS0tLS1FTkQgUFVCTElDIEtFWS0tLS0tCg==",
+        "accessToken": "6896cba3119ae99b93bd97a3c86bbd2a1dc2f460"
+    },
+    "identificationState": "LA",
+    "identificationNumber": "3454354545",
+    "termsAndConditions": "true",
+    "identificationType": "DL",
+    "firstName": "Jasper",
+    "streetAddress": "48 ALLENSTOWN RD",
+    "mainPhoneNumber": "789-963-4855",
+    "lastName": "Gorczany",
+    "dob": "12/19/2005",
+    "zipCode": "03275",
+    "city": "ALLENSTOWN",
+    "apartmentNumber": null
+}
+HTTP/1.1 200 OK
+Date: Mon, 28 Apr 2025 12:42:43 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 435
+Connection: keep-alive
+Access-Control-Expose-Headers: Request-Context
+Cache-Control: no-cache
+Content-Encoding: gzip
+Expires: -1
+Pragma: no-cache
+Vary: Accept-Encoding
+X-AspNet-Version: 4.0.30319
+Request-Context: appId=cid-v1:cba57b22-bea6-48bb-a3b8-4c30d76b9899
+X-Powered-By: ASP.NET
+X-Frame-Options: ALLOW-FROM http://localhost:58402/ http://localhost:61309/
+cf-cache-status: DYNAMIC
+Server: cloudflare
+CF-RAY: 9376a4000d18ff7a-BOM
+
+{
+    "status": true,
+    "messages": [
+        "Account created.",
+        "Account created & partner registered for IAV redirect URL.",
+        "First API call retrieved redirect URL successfully."
+    ],
+    "notification": "",
+    "payload": {
+        "redirect": "https://bimsdk-qa.bimnetworkstech.com/IAVRed/Link/140566/127",
+        "action_code": 171,
+        "fallback": "redirectbankselect",
+        "auth_operation": "CHKENROLL",
+        "auth_response_code": "00",
+        "auth_response_verbiage": "TRANSACTION APPROVED"
+    },
+    "error": null
+}
+Request method:	POST
+Request URI:	https://bimhep-qa.bimnetworkstech.com/api/hostedEnrollment/PostToWebhookOnIAVExit
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "partnerId": "MTI3",
+    "consumerId": "140566"
+}
+HTTP/1.1 200 OK
+Date: Mon, 28 Apr 2025 12:42:44 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 122
+Connection: keep-alive
+Access-Control-Expose-Headers: Request-Context
+Cache-Control: no-cache
+Content-Encoding: gzip
+Expires: -1
+Pragma: no-cache
+Vary: Accept-Encoding
+X-AspNet-Version: 4.0.30319
+Request-Context: appId=cid-v1:cba57b22-bea6-48bb-a3b8-4c30d76b9899
+X-Powered-By: ASP.NET
+X-Frame-Options: ALLOW-FROM http://localhost:58402/ http://localhost:61309/
+cf-cache-status: DYNAMIC
+Server: cloudflare
+CF-RAY: 9376a4246ca23ad1-BOM
+
+true
+Request method:	POST
+Request URI:	https://bimhep-qa.bimnetworkstech.com/api/hostedEnrollment/cdwMatchEnrollment
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accountNumber": "877573753738462",
+    "routingNumber": "121000358",
+    "partnerId": "MTI3",
+    "payload": {
+        "publicKey": "LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0KTUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUFvU0JxMTRYOTEyQ3pMdG9FSk9hQQpVU00yb3NJZ0YybkRnSmJMZFVuNDBjY0t5QUM3WkNlOHptN2p0c3k3VUhKWGU5Qy9ZeGh3eXgvellwa29ZWm5DCjZ0NlBRK0RxZEYzeGJ4TVY0ckFsNFY2V0MyaHp0cVVzRFFnK3R1YkxQai9vTFl1QzJ6SjVyVkF2NlRKVjBENm0Kd2VMMWpnbUVkVHpTaStCTm5IaTJ5UXR6L1BUbXdFMEF1NkN5MGRBZ0psZlNDVUdPN0gxQnhlWkhDdWt3WXgxTQp4dkFqYnJ1MFhnWUw1N0RyQmd6cXVIaHZpb3plOGhTTUNodGJkTkFLVGhsRnZNVjZJUTJxQzloYmZNTjJvbWFSCjdHR2JndkFMVnIreEdwQTJLMnliZStpd0VPUXJndGs3SkNsNVJmN1ZSMXRBOCtnZkQyUW5uUDVXOU1uTkFWalgKd1FJREFRQUIKLS0tLS1FTkQgUFVCTElDIEtFWS0tLS0tCg==",
+        "accessToken": "6896cba3119ae99b93bd97a3c86bbd2a1dc2f460"
+    }
+}
+HTTP/1.1 200 OK
+Date: Mon, 28 Apr 2025 12:42:54 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 448
+Connection: keep-alive
+Access-Control-Expose-Headers: Request-Context
+Cache-Control: no-cache
+Content-Encoding: gzip
+Expires: -1
+Pragma: no-cache
+Vary: Accept-Encoding
+X-AspNet-Version: 4.0.30319
+Request-Context: appId=cid-v1:cba57b22-bea6-48bb-a3b8-4c30d76b9899
+X-Powered-By: ASP.NET
+X-Frame-Options: ALLOW-FROM http://localhost:58402/ http://localhost:61309/
+cf-cache-status: DYNAMIC
+Server: cloudflare
+CF-RAY: 9376a42f793d3b07-BOM
+
+{
+    "status": true,
+    "messages": [
+        "Account number and routing number added successfully."
+    ],
+    "notification": "enrollment_challenge_instructions",
+    "payload": {
+        "bank_source": "U",
+        "action_code": 650,
+        "redirect": "cdwnotice",
+        "fallback": "cdwnotice",
+        "auth_operation": "CHKBNKADD",
+        "auth_response_code": "OK",
+        "auth_response_verbiage": "CONFIRMATION - ACCOUNT IN GOOD STANDING",
+        "email_address": "jaspergorczany@gmail.com",
+        "consumer_id": "140566"
+    },
+    "error": null
+}
+Request method:	POST
+Request URI:	https://bimhep-qa.bimnetworkstech.com/api/hostedEnrollment/confirmCdw
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "partnerId": "MTI3",
+    "payload": {
+        "publicKey": "LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0KTUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUFvU0JxMTRYOTEyQ3pMdG9FSk9hQQpVU00yb3NJZ0YybkRnSmJMZFVuNDBjY0t5QUM3WkNlOHptN2p0c3k3VUhKWGU5Qy9ZeGh3eXgvellwa29ZWm5DCjZ0NlBRK0RxZEYzeGJ4TVY0ckFsNFY2V0MyaHp0cVVzRFFnK3R1YkxQai9vTFl1QzJ6SjVyVkF2NlRKVjBENm0Kd2VMMWpnbUVkVHpTaStCTm5IaTJ5UXR6L1BUbXdFMEF1NkN5MGRBZ0psZlNDVUdPN0gxQnhlWkhDdWt3WXgxTQp4dkFqYnJ1MFhnWUw1N0RyQmd6cXVIaHZpb3plOGhTTUNodGJkTkFLVGhsRnZNVjZJUTJxQzloYmZNTjJvbWFSCjdHR2JndkFMVnIreEdwQTJLMnliZStpd0VPUXJndGs3SkNsNVJmN1ZSMXRBOCtnZkQyUW5uUDVXOU1uTkFWalgKd1FJREFRQUIKLS0tLS1FTkQgUFVCTElDIEtFWS0tLS0tCg==",
+        "accessToken": "6896cba3119ae99b93bd97a3c86bbd2a1dc2f460"
+    },
+    "depositAmount": "0.09",
+    "withdrawalAmount": "0.08"
+}
+HTTP/1.1 200 OK
+Date: Mon, 28 Apr 2025 12:43:00 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 370
+Connection: keep-alive
+Access-Control-Expose-Headers: Request-Context
+Cache-Control: no-cache
+Content-Encoding: gzip
+Expires: -1
+Pragma: no-cache
+Vary: Accept-Encoding
+X-AspNet-Version: 4.0.30319
+Request-Context: appId=cid-v1:cba57b22-bea6-48bb-a3b8-4c30d76b9899
+X-Powered-By: ASP.NET
+X-Frame-Options: ALLOW-FROM http://localhost:58402/ http://localhost:61309/
+cf-cache-status: DYNAMIC
+Server: cloudflare
+CF-RAY: 9376a46898593ce8-BOM
+
+{
+    "status": true,
+    "messages": [
+        "Deposit and Withdrawal match values on record."
+    ],
+    "notification": "enrollment_complete",
+    "payload": {
+        "action_code": 820,
+        "account_change_code": 0,
+        "redirect": "complete",
+        "fallback": "complete",
+        "auth_operation": "",
+        "auth_response_code": "",
+        "auth_response_verbiage": "",
+        "email_address": "jaspergorczany@gmail.com",
+        "consumer_id": "140566",
+        "rewards": null
+    }
+}
