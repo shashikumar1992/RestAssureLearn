@@ -6,8 +6,6 @@ import static org.junit.Assert.assertEquals;
 import java.util.List;
 import java.util.Map;
 
-import com.github.javafaker.Faker;
-
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -17,7 +15,7 @@ import utility.APIResource;
 import utility.FakeEmailGenerater;
 import utility.Helper;
 import utility.TestDataBuild;
-import utility.readProperty;
+import utility.ReadProperty; // Ensure the class name matches the actual file name and case
 
 public class TestDefinition   extends Helper {
 
@@ -26,10 +24,10 @@ public class TestDefinition   extends Helper {
 	static String consumerAccessToken;
 	static String consumer_public_key;
 	static String consumer_id;
-	String partnerid = readProperty.getValueBykey("partnerId");
+	String partnerid = ReadProperty.getValueBykey("partnerId");
 
-	@Given("Register a consumer with partner {string} using consumer details {string}, {string}, {string}, and {string}.")
-	public void register_a_consumer_with_partner_using_consumer_details_and(String partner, String fname, String lname,
+	@Given("Register a consumer with partner {string} using details {string}, {string}, {string}, and {string}.")
+	public void register_a_consumer_with_partner_using_details_and(String partner, String fname, String lname,
 			String email, String phoneNumber) {
 		if (fname.equals("_") || lname.equals("_") || email.equals("_")) {
 			
@@ -119,14 +117,14 @@ public class TestDefinition   extends Helper {
 		req = given().spec(requestSpesification()).body(TestDataBuild.setWebHookInfo(partnerid, consumer_id));
 	}
 
-	@Given("Adding {string} and {string} continue Enrollment")
-	public void adding_and_continue_enrollment(String AccountNumber, String RoutingNumber) {
+	@Given("Add account {string} and routing {string} to continue Enrollment")
+	public void add_account_and_routing_to_continue_enrollment(String AccountNumber, String RoutingNumber) {
 		req = given().spec(requestSpesification()).body(TestDataBuild.setAccountDeatilsInfo(AccountNumber,
 				RoutingNumber, consumer_public_key, consumerAccessToken, partnerid));
 	}
 
-	@Given("Adding {string} and {string} complete Enrollment")
-	public void adding_and_complete_enrollment(String deposit, String withdrow) {
+	@Given("Add deposit {string} and withdrawal {string} to complete Enrollment")
+	public void add_deposit_and_withdrawal_to_complete_enrollment(String deposit, String withdrow) {
 		req = given().spec(requestSpesification()).body(TestDataBuild.setDepositWithdrawalInfo(deposit, withdrow,
 				consumer_public_key, consumerAccessToken, partnerid));
 	}

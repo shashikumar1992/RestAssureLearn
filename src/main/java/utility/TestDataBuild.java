@@ -2,8 +2,6 @@ package utility;
 
 import java.util.Arrays;
 
-import com.github.javafaker.Faker;
-
 import pojoClass.AccountDetailsInfo;
 import pojoClass.ConsumerInfo;
 import pojoClass.ContinueConsumerInfo;
@@ -42,8 +40,6 @@ public class TestDataBuild {
 
 	public static ContinueConsumerInfo setContinueConsumerData(String fname, String lname, String email,
 			String phoneNumber, String consumer_public_key, String consumerAccessToken) {
-		Faker faker = new Faker();
-		
 		ContinueConsumerInfo consumer = new ContinueConsumerInfo();
 		consumer.setFirstName(fname);
 		consumer.setLastName(lname);

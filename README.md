@@ -1,7 +1,7 @@
-📚 RestAssured API Automation Project
+**📚 RestAssured API Automation Project**
 This project automates API testing using Java, Rest Assured, Cucumber, and TestNG/JUnit frameworks.
 ________________________________________
-🚀 Project Structure
+**🚀 Project Structure**
 Folder	Description
 stepDefinitions/	Step definitions for Cucumber scenarios
 utility/	Helper classes (RequestSpec, DataBuilder, Property Reader, etc.)
@@ -25,8 +25,6 @@ ________________________________________
 •	Git installed (optional)
 ________________________________________
 📥 How to Setup
-bash
-CopyEdit
 # 1. Clone the repository
 git clone https://github.com/<your-username>/<your-repo>.git
 
@@ -49,8 +47,6 @@ Reports will be generated inside:
 bash
 CopyEdit
 target/cucumber-reports/
-________________________________________
-🔑 Environment Variables
 You can set different environments using config.properties under the /resources folder:
 Key	Description
 BaseUrl	Base API endpoint URL

@@ -3,11 +3,13 @@ package utility;
 import java.io.FileInputStream;
 import java.util.Properties;
 
-public class readProperty {
+
+
+public class ReadProperty {
 
 	static Properties pro = new Properties();
 
-	public static String getValueBykey(String key) {
+	public static String getValueBykey(String key)    {
 
 		String filePath = System.getProperty("user.dir").concat("//src//main//resources//config.properties");
 		String value = null;
