@@ -11,9 +11,9 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "emailAddress": "KieshaKub@gmail.com",
-    "firstName": "Kiesha",
-    "lastName": "Kub",
+    "emailAddress": "JeffJerde@gmail.com",
+    "firstName": "Jeff",
+    "lastName": "Jerde",
     "pin": "9394",
     "partnerId": "MTI3",
     "mobilePhoneNumber": "789-963-4855",
@@ -32,9 +32,9 @@ Body:
     ]
 }
 HTTP/1.1 200 OK
-Date: Tue, 29 Apr 2025 05:34:57 GMT
+Date: Tue, 29 Apr 2025 06:23:39 GMT
 Content-Type: application/json; charset=utf-8
-Content-Length: 1499
+Content-Length: 1505
 Connection: keep-alive
 Access-Control-Expose-Headers: Request-Context
 Cache-Control: no-cache
@@ -48,7 +48,7 @@ X-Powered-By: ASP.NET
 X-Frame-Options: ALLOW-FROM http://localhost:58402/ http://localhost:61309/
 cf-cache-status: DYNAMIC
 Server: cloudflare
-CF-RAY: 937c6ecbeacf473d-BOM
+CF-RAY: 937cb61279a6a73c-IXC
 
 {
     "status": true,
@@ -63,15 +63,15 @@ CF-RAY: 937c6ecbeacf473d-BOM
         "last_redirect": "",
         "last_fallback": "",
         "fallback": "",
-        "consumer_id": "140601",
-        "enrollment_id": "39816",
-        "email_address": "kieshakub@gmail.com",
-        "consumer_public_key": "LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0KTUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUF0K1RyYVJlbEdjYk1RVy84WVcxKwo2QTdiU2d2Tm1JUm9raWtSWXRZanRhVDl6R0Q1SEp3OFBEdmFybWNqR3B1K3ZDdHFtMGVGNDVjWXZmaW5hOFVnCnZlTDVvTUw4aFBMaXZBdGZYNVl3cjNwcmJ2QWZoN3lnTVB3ZitVWFlkM3B3NDBaQlpRWFU4eTdtaFZPSGMrTEwKcWNXL2ErZzZoa29DeVRiMFdtZHR0RGoxZHVybWNGWWlCWVBNTW1UU2N2S1BwKzAzaGx1UDg2bTB6ckE5MG1JRQorazI2MlY1bnRBQXlqMXV1ZlB0dmNCdE56UmdhVDJZSGFteXl1cXA5bEVQS2ZhTlF6SS9yTi9CUHhVR0FZQ1lKCkc1aS81Slp0LzByS3Yzb1NMSW11Rm5SSjNkcCtocWJPSUZRRGk1aGoyeU0zcDZ4Vi81ZGZseEVFdk9UTlNHcGwKVHdJREFRQUIKLS0tLS1FTkQgUFVCTElDIEtFWS0tLS0tCg==",
-        "consumerAccessToken": "7708f7422abdc51298c369024c9e440faf9721b3",
+        "consumer_id": "140606",
+        "enrollment_id": "39821",
+        "email_address": "jeffjerde@gmail.com",
+        "consumer_public_key": "LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0KTUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUFzT2FjbjNlc2hJSE51Q1A4QzdwUQp6MzltMWdQY1ZxeE5XUTJ1YlZuaG93RlJwZFFaSTR5VEdkM3pOTnZQdlhtNkVNdWlRN3dRbnVXYXc3M1hxVGdTCkRjckRjUytRRjRTMmVwU3ViKzdvbUs5TzQra3FPdjJKcnhOK1JUMWExZUlZTVIvSzlUQmJONWZ4ZDR3OVVNNkQKSkxiSXIxdk9tajBnYkpURmJHSkJacHZQWHhxV2ZlZEJTQzBrd2pCamV2cnVnS1Q2V2VuSmpIZTNRbTFHaFIweQp1OGN5MmJTaWZpczJvaUJkT3dDdzY2NCt6azRzYjVJYTBMUlhCaTB1Q0Z1ZjA3bTdJaEc0d0oyNlhGVmxheFR6CnhMM3BOaStIcVZ3cUF3TnJsR21HUHhsU0NCYnY2elpuNndhZWJ5M1lDaUFDV3dwVHpUNDc1UDN1VU1UQkhsYi8KK1FJREFRQUIKLS0tLS1FTkQgUFVCTElDIEtFWS0tLS0tCg==",
+        "consumerAccessToken": "b2ecb1c31b69f8d6f4187e27e1d8317d964f71c4",
         "itemId": null,
         "merchant_id": "127000256000017",
-        "fname": "Kiesha",
-        "lname": "Kub",
+        "fname": "Jeff",
+        "lname": "Jerde",
         "bank_source": "",
         "cdw_action_code": "730",
         "cdw_redirect": "error",
@@ -82,9 +82,9 @@ CF-RAY: 937c6ecbeacf473d-BOM
         "mobile_phone": "7899634855",
         "cdw_extended_delay": 0
     },
-    "partnerCustomerNumber": "bdab53e6-4ed0-4ac3-9eae-d9d986963396",
+    "partnerCustomerNumber": "5bb1435c-4846-4998-a2f5-5ace2651d7ca",
     "error": null,
-    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJQYXJ0bmVySWQiOiJNVEkzIiwiQ29uc3VtZXJJZCI6IjE0MDYwMSIsImV4cCI6MTc0NTkwNjY5NywiaXNzIjoiU3BpcmUiLCJhdWQiOiJDb25zdW1lckVucm9sbG1lbnQifQ.mQXE3F91vTBSUDQU8hak2WoC4DUakikN1OTPUKDr4ik"
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJQYXJ0bmVySWQiOiJNVEkzIiwiQ29uc3VtZXJJZCI6IjE0MDYwNiIsImV4cCI6MTc0NTkwOTYxOSwiaXNzIjoiU3BpcmUiLCJhdWQiOiJDb25zdW1lckVucm9sbG1lbnQifQ.w2txFNNVGfFD5zl78qGh_IRY7haMJVM5ksh_MDGAfDM"
 }
 Request method:	POST
 Request URI:	https://bimhep-qa.bimnetworkstech.com/api/hostedEnrollment/continueEnrollment
@@ -102,24 +102,24 @@ Body:
     "partnerId": "MTI3",
     "state": "NY",
     "payload": {
-        "publicKey": "LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0KTUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUF0K1RyYVJlbEdjYk1RVy84WVcxKwo2QTdiU2d2Tm1JUm9raWtSWXRZanRhVDl6R0Q1SEp3OFBEdmFybWNqR3B1K3ZDdHFtMGVGNDVjWXZmaW5hOFVnCnZlTDVvTUw4aFBMaXZBdGZYNVl3cjNwcmJ2QWZoN3lnTVB3ZitVWFlkM3B3NDBaQlpRWFU4eTdtaFZPSGMrTEwKcWNXL2ErZzZoa29DeVRiMFdtZHR0RGoxZHVybWNGWWlCWVBNTW1UU2N2S1BwKzAzaGx1UDg2bTB6ckE5MG1JRQorazI2MlY1bnRBQXlqMXV1ZlB0dmNCdE56UmdhVDJZSGFteXl1cXA5bEVQS2ZhTlF6SS9yTi9CUHhVR0FZQ1lKCkc1aS81Slp0LzByS3Yzb1NMSW11Rm5SSjNkcCtocWJPSUZRRGk1aGoyeU0zcDZ4Vi81ZGZseEVFdk9UTlNHcGwKVHdJREFRQUIKLS0tLS1FTkQgUFVCTElDIEtFWS0tLS0tCg==",
-        "accessToken": "7708f7422abdc51298c369024c9e440faf9721b3"
+        "publicKey": "LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0KTUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUFzT2FjbjNlc2hJSE51Q1A4QzdwUQp6MzltMWdQY1ZxeE5XUTJ1YlZuaG93RlJwZFFaSTR5VEdkM3pOTnZQdlhtNkVNdWlRN3dRbnVXYXc3M1hxVGdTCkRjckRjUytRRjRTMmVwU3ViKzdvbUs5TzQra3FPdjJKcnhOK1JUMWExZUlZTVIvSzlUQmJONWZ4ZDR3OVVNNkQKSkxiSXIxdk9tajBnYkpURmJHSkJacHZQWHhxV2ZlZEJTQzBrd2pCamV2cnVnS1Q2V2VuSmpIZTNRbTFHaFIweQp1OGN5MmJTaWZpczJvaUJkT3dDdzY2NCt6azRzYjVJYTBMUlhCaTB1Q0Z1ZjA3bTdJaEc0d0oyNlhGVmxheFR6CnhMM3BOaStIcVZ3cUF3TnJsR21HUHhsU0NCYnY2elpuNndhZWJ5M1lDaUFDV3dwVHpUNDc1UDN1VU1UQkhsYi8KK1FJREFRQUIKLS0tLS1FTkQgUFVCTElDIEtFWS0tLS0tCg==",
+        "accessToken": "b2ecb1c31b69f8d6f4187e27e1d8317d964f71c4"
     },
-    "termsAndConditions": "true",
-    "identificationState": "LA",
-    "identificationNumber": "3454354545",
-    "identificationType": "DL",
     "streetAddress": "48 ALLENSTOWN RD",
+    "apartmentNumber": null,
     "mainPhoneNumber": "789-963-4855",
-    "firstName": "Kiesha",
-    "lastName": "Kub",
-    "city": "ALLENSTOWN",
-    "zipCode": "03275",
     "dob": "12/19/2005",
-    "apartmentNumber": null
+    "zipCode": "03275",
+    "city": "ALLENSTOWN",
+    "identificationState": "LA",
+    "termsAndConditions": "true",
+    "identificationType": "DL",
+    "identificationNumber": "3454354545",
+    "lastName": "Jerde",
+    "firstName": "Jeff"
 }
 HTTP/1.1 200 OK
-Date: Tue, 29 Apr 2025 05:35:04 GMT
+Date: Tue, 29 Apr 2025 06:23:46 GMT
 Content-Type: application/json; charset=utf-8
 Content-Length: 435
 Connection: keep-alive
@@ -135,7 +135,7 @@ X-Powered-By: ASP.NET
 X-Frame-Options: ALLOW-FROM http://localhost:58402/ http://localhost:61309/
 cf-cache-status: DYNAMIC
 Server: cloudflare
-CF-RAY: 937c6eed6bda47ce-BOM
+CF-RAY: 937cb645db17eba2-SIN
 
 {
     "status": true,
@@ -146,7 +146,7 @@ CF-RAY: 937c6eed6bda47ce-BOM
     ],
     "notification": "",
     "payload": {
-        "redirect": "https://bimsdk-qa.bimnetworkstech.com/IAVRed/Link/140601/127",
+        "redirect": "https://bimsdk-qa.bimnetworkstech.com/IAVRed/Link/140606/127",
         "action_code": 171,
         "fallback": "redirectbankselect",
         "auth_operation": "CHKENROLL",
@@ -169,10 +169,10 @@ Multiparts:		<none>
 Body:
 {
     "partnerId": "MTI3",
-    "consumerId": "140601"
+    "consumerId": "140606"
 }
 HTTP/1.1 200 OK
-Date: Tue, 29 Apr 2025 05:35:07 GMT
+Date: Tue, 29 Apr 2025 06:23:48 GMT
 Content-Type: application/json; charset=utf-8
 Content-Length: 122
 Connection: keep-alive
@@ -188,7 +188,7 @@ X-Powered-By: ASP.NET
 X-Frame-Options: ALLOW-FROM http://localhost:58402/ http://localhost:61309/
 cf-cache-status: DYNAMIC
 Server: cloudflare
-CF-RAY: 937c6f14ec3647be-BOM
+CF-RAY: 937cb66c7946601b-SIN
 
 true
 Request method:	POST
@@ -208,14 +208,14 @@ Body:
     "routingNumber": "121000358",
     "partnerId": "MTI3",
     "payload": {
-        "publicKey": "LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0KTUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUF0K1RyYVJlbEdjYk1RVy84WVcxKwo2QTdiU2d2Tm1JUm9raWtSWXRZanRhVDl6R0Q1SEp3OFBEdmFybWNqR3B1K3ZDdHFtMGVGNDVjWXZmaW5hOFVnCnZlTDVvTUw4aFBMaXZBdGZYNVl3cjNwcmJ2QWZoN3lnTVB3ZitVWFlkM3B3NDBaQlpRWFU4eTdtaFZPSGMrTEwKcWNXL2ErZzZoa29DeVRiMFdtZHR0RGoxZHVybWNGWWlCWVBNTW1UU2N2S1BwKzAzaGx1UDg2bTB6ckE5MG1JRQorazI2MlY1bnRBQXlqMXV1ZlB0dmNCdE56UmdhVDJZSGFteXl1cXA5bEVQS2ZhTlF6SS9yTi9CUHhVR0FZQ1lKCkc1aS81Slp0LzByS3Yzb1NMSW11Rm5SSjNkcCtocWJPSUZRRGk1aGoyeU0zcDZ4Vi81ZGZseEVFdk9UTlNHcGwKVHdJREFRQUIKLS0tLS1FTkQgUFVCTElDIEtFWS0tLS0tCg==",
-        "accessToken": "7708f7422abdc51298c369024c9e440faf9721b3"
+        "publicKey": "LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0KTUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUFzT2FjbjNlc2hJSE51Q1A4QzdwUQp6MzltMWdQY1ZxeE5XUTJ1YlZuaG93RlJwZFFaSTR5VEdkM3pOTnZQdlhtNkVNdWlRN3dRbnVXYXc3M1hxVGdTCkRjckRjUytRRjRTMmVwU3ViKzdvbUs5TzQra3FPdjJKcnhOK1JUMWExZUlZTVIvSzlUQmJONWZ4ZDR3OVVNNkQKSkxiSXIxdk9tajBnYkpURmJHSkJacHZQWHhxV2ZlZEJTQzBrd2pCamV2cnVnS1Q2V2VuSmpIZTNRbTFHaFIweQp1OGN5MmJTaWZpczJvaUJkT3dDdzY2NCt6azRzYjVJYTBMUlhCaTB1Q0Z1ZjA3bTdJaEc0d0oyNlhGVmxheFR6CnhMM3BOaStIcVZ3cUF3TnJsR21HUHhsU0NCYnY2elpuNndhZWJ5M1lDaUFDV3dwVHpUNDc1UDN1VU1UQkhsYi8KK1FJREFRQUIKLS0tLS1FTkQgUFVCTElDIEtFWS0tLS0tCg==",
+        "accessToken": "b2ecb1c31b69f8d6f4187e27e1d8317d964f71c4"
     }
 }
 HTTP/1.1 200 OK
-Date: Tue, 29 Apr 2025 05:35:13 GMT
+Date: Tue, 29 Apr 2025 06:23:53 GMT
 Content-Type: application/json; charset=utf-8
-Content-Length: 444
+Content-Length: 445
 Connection: keep-alive
 Access-Control-Expose-Headers: Request-Context
 Cache-Control: no-cache
@@ -229,7 +229,7 @@ X-Powered-By: ASP.NET
 X-Frame-Options: ALLOW-FROM http://localhost:58402/ http://localhost:61309/
 cf-cache-status: DYNAMIC
 Server: cloudflare
-CF-RAY: 937c6f272ffb47b6-BOM
+CF-RAY: 937cb6785a35a759-IXC
 
 {
     "status": true,
@@ -245,8 +245,8 @@ CF-RAY: 937c6f272ffb47b6-BOM
         "auth_operation": "CHKBNKADD",
         "auth_response_code": "OK",
         "auth_response_verbiage": "CONFIRMATION - ACCOUNT IN GOOD STANDING",
-        "email_address": "kieshakub@gmail.com",
-        "consumer_id": "140601"
+        "email_address": "jeffjerde@gmail.com",
+        "consumer_id": "140606"
     },
     "error": null
 }
@@ -265,16 +265,16 @@ Body:
 {
     "partnerId": "MTI3",
     "payload": {
-        "publicKey": "LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0KTUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUF0K1RyYVJlbEdjYk1RVy84WVcxKwo2QTdiU2d2Tm1JUm9raWtSWXRZanRhVDl6R0Q1SEp3OFBEdmFybWNqR3B1K3ZDdHFtMGVGNDVjWXZmaW5hOFVnCnZlTDVvTUw4aFBMaXZBdGZYNVl3cjNwcmJ2QWZoN3lnTVB3ZitVWFlkM3B3NDBaQlpRWFU4eTdtaFZPSGMrTEwKcWNXL2ErZzZoa29DeVRiMFdtZHR0RGoxZHVybWNGWWlCWVBNTW1UU2N2S1BwKzAzaGx1UDg2bTB6ckE5MG1JRQorazI2MlY1bnRBQXlqMXV1ZlB0dmNCdE56UmdhVDJZSGFteXl1cXA5bEVQS2ZhTlF6SS9yTi9CUHhVR0FZQ1lKCkc1aS81Slp0LzByS3Yzb1NMSW11Rm5SSjNkcCtocWJPSUZRRGk1aGoyeU0zcDZ4Vi81ZGZseEVFdk9UTlNHcGwKVHdJREFRQUIKLS0tLS1FTkQgUFVCTElDIEtFWS0tLS0tCg==",
-        "accessToken": "7708f7422abdc51298c369024c9e440faf9721b3"
+        "publicKey": "LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0KTUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUFzT2FjbjNlc2hJSE51Q1A4QzdwUQp6MzltMWdQY1ZxeE5XUTJ1YlZuaG93RlJwZFFaSTR5VEdkM3pOTnZQdlhtNkVNdWlRN3dRbnVXYXc3M1hxVGdTCkRjckRjUytRRjRTMmVwU3ViKzdvbUs5TzQra3FPdjJKcnhOK1JUMWExZUlZTVIvSzlUQmJONWZ4ZDR3OVVNNkQKSkxiSXIxdk9tajBnYkpURmJHSkJacHZQWHhxV2ZlZEJTQzBrd2pCamV2cnVnS1Q2V2VuSmpIZTNRbTFHaFIweQp1OGN5MmJTaWZpczJvaUJkT3dDdzY2NCt6azRzYjVJYTBMUlhCaTB1Q0Z1ZjA3bTdJaEc0d0oyNlhGVmxheFR6CnhMM3BOaStIcVZ3cUF3TnJsR21HUHhsU0NCYnY2elpuNndhZWJ5M1lDaUFDV3dwVHpUNDc1UDN1VU1UQkhsYi8KK1FJREFRQUIKLS0tLS1FTkQgUFVCTElDIEtFWS0tLS0tCg==",
+        "accessToken": "b2ecb1c31b69f8d6f4187e27e1d8317d964f71c4"
     },
-    "withdrawalAmount": "0.08",
-    "depositAmount": "0.09"
+    "depositAmount": "0.09",
+    "withdrawalAmount": "0.08"
 }
 HTTP/1.1 200 OK
-Date: Tue, 29 Apr 2025 05:35:20 GMT
+Date: Tue, 29 Apr 2025 06:24:00 GMT
 Content-Type: application/json; charset=utf-8
-Content-Length: 366
+Content-Length: 367
 Connection: keep-alive
 Access-Control-Expose-Headers: Request-Context
 Cache-Control: no-cache
@@ -288,7 +288,7 @@ X-Powered-By: ASP.NET
 X-Frame-Options: ALLOW-FROM http://localhost:58402/ http://localhost:61309/
 cf-cache-status: DYNAMIC
 Server: cloudflare
-CF-RAY: 937c6f4db9924713-BOM
+CF-RAY: 937cb6983bffa73c-IXC
 
 {
     "status": true,
@@ -304,8 +304,8 @@ CF-RAY: 937c6f4db9924713-BOM
         "auth_operation": "",
         "auth_response_code": "",
         "auth_response_verbiage": "",
-        "email_address": "kieshakub@gmail.com",
-        "consumer_id": "140601",
+        "email_address": "jeffjerde@gmail.com",
+        "consumer_id": "140606",
         "rewards": null
     }
 }
