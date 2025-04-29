@@ -9,8 +9,8 @@ Feature: Validate All Enrollment APIs with Positive Scenarios.
     And Extract "accessToken" and "publicKey" from response
 
     Examples: 
-      | fname  | lname | gmail          | phoneNumber  | message                                                                                                       |
-      | _   | _   | _ | 789-963-4855 | Enrollment status available.                                                                                  |
+      | fname  | lname | gmail          | phoneNumber  | message|
+      | _   | _   | _ | 789-963-4855 | Enrollment status available.|
 
   @ContinueEnrollment
   Scenario: Verify the continueEnrollment API response

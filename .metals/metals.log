@@ -1840,3 +1840,91 @@ WARNING: sun.misc.Unsafe::arrayBaseOffset will be removed in a future release.
 2025.04.29 16:36:59 INFO  time: compiled EnrollmentAPI-test in 2.83s
 Apr 29, 2025 4:38:09 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+2025.04.29 16:39:43 INFO  compiling enrollmentapi-test (1 java source)
+2025.04.29 16:39:46 WARN  Unexpected javac output: WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::arrayBaseOffset has been called by com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor (file:/C:/Users/ShashiKumarSidhhalin/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.10.4/semanticdb-javac-0.10.4.jar)
+WARNING: Please consider reporting this to the maintainers of class com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor
+WARNING: sun.misc.Unsafe::arrayBaseOffset will be removed in a future release.
+2025.04.29 16:39:46 INFO  time: compiled EnrollmentAPI-test in 2.88s
+2025.04.29 16:42:21 INFO  compiling enrollmentapi-test (1 java source)
+2025.04.29 16:42:24 WARN  Unexpected javac output: WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::arrayBaseOffset has been called by com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor (file:/C:/Users/ShashiKumarSidhhalin/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.10.4/semanticdb-javac-0.10.4.jar)
+WARNING: Please consider reporting this to the maintainers of class com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor
+WARNING: sun.misc.Unsafe::arrayBaseOffset will be removed in a future release.
+2025.04.29 16:42:24 INFO  time: compiled EnrollmentAPI-test in 3.3s
+Apr 29, 2025 4:43:49 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: QDox parse error in file:///C:/Users/ShashiKumarSidhhalin/Desktop/MyRestAssureProject/RestAssureLearn/src/test/java/cucumber/options/TestRunner.java (full report at: C:\Users\ShashiKumarSidhhalin\Desktop\MyRestAssureProject\RestAssureLearn\.metals\.reports\metals-full\2025-04-29\r_qdox-error_(EnrollmentAPI-test)_16-36-17-315.md)
+2025.04.29 16:43:49 INFO  compiling enrollmentapi-test (1 java source)
+2025.04.29 16:43:51 WARN  javac exited with exit code 1
+2025.04.29 16:43:51 INFO  time: compiled EnrollmentAPI-test in 1.81s
+Apr 29, 2025 4:43:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1970
+Apr 29, 2025 4:43:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1971
+2025.04.29 16:43:53 INFO  compiling enrollmentapi-test (1 java source)
+2025.04.29 16:43:56 WARN  Unexpected javac output: WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::arrayBaseOffset has been called by com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor (file:/C:/Users/ShashiKumarSidhhalin/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.10.4/semanticdb-javac-0.10.4.jar)
+WARNING: Please consider reporting this to the maintainers of class com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor
+WARNING: sun.misc.Unsafe::arrayBaseOffset will be removed in a future release.
+2025.04.29 16:43:56 INFO  time: compiled EnrollmentAPI-test in 2.73s
+Apr 29, 2025 4:48:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2060
+2025.04.29 16:51:56 INFO  compiling enrollmentapi-test (1 java source)
+Apr 29, 2025 4:51:57 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: QDox parse error in file:///C:/Users/ShashiKumarSidhhalin/Desktop/MyRestAssureProject/RestAssureLearn/src/test/java/cucumber/options/TestRunner.java (full report at: C:\Users\ShashiKumarSidhhalin\Desktop\MyRestAssureProject\RestAssureLearn\.metals\.reports\metals-full\2025-04-29\r_qdox-error_(EnrollmentAPI-test)_16-36-17-315.md)
+Apr 29, 2025 4:51:57 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: QDox parse error in file:///C:/Users/ShashiKumarSidhhalin/Desktop/MyRestAssureProject/RestAssureLearn/src/test/java/cucumber/options/TestRunner.java (full report at: C:\Users\ShashiKumarSidhhalin\Desktop\MyRestAssureProject\RestAssureLearn\.metals\.reports\metals-full\2025-04-29\r_qdox-error_(EnrollmentAPI-test)_16-36-17-315.md)
+Apr 29, 2025 4:51:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2108
+2025.04.29 16:51:58 WARN  javac exited with exit code 1
+2025.04.29 16:51:58 INFO  time: compiled EnrollmentAPI-test in 1.91s
+2025.04.29 16:51:58 INFO  compiling enrollmentapi-test (1 java source)
+Apr 29, 2025 4:51:59 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: QDox parse error in file:///C:/Users/ShashiKumarSidhhalin/Desktop/MyRestAssureProject/RestAssureLearn/src/test/java/cucumber/options/TestRunner.java (full report at: C:\Users\ShashiKumarSidhhalin\Desktop\MyRestAssureProject\RestAssureLearn\.metals\.reports\metals-full\2025-04-29\r_qdox-error_(EnrollmentAPI-test)_16-36-17-315.md)
+2025.04.29 16:52:00 WARN  javac exited with exit code 1
+2025.04.29 16:52:00 INFO  time: compiled EnrollmentAPI-test in 1.59s
+Apr 29, 2025 4:52:02 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: QDox parse error in file:///C:/Users/ShashiKumarSidhhalin/Desktop/MyRestAssureProject/RestAssureLearn/src/test/java/cucumber/options/TestRunner.java (full report at: C:\Users\ShashiKumarSidhhalin\Desktop\MyRestAssureProject\RestAssureLearn\.metals\.reports\metals-full\2025-04-29\r_qdox-error_(EnrollmentAPI-test)_16-36-17-315.md)
+2025.04.29 16:52:02 INFO  compiling enrollmentapi-test (1 java source)
+2025.04.29 16:52:04 WARN  javac exited with exit code 1
+2025.04.29 16:52:04 INFO  time: compiled EnrollmentAPI-test in 1.45s
+2025.04.29 16:52:05 INFO  compiling enrollmentapi-test (1 java source)
+2025.04.29 16:52:08 WARN  Unexpected javac output: WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::arrayBaseOffset has been called by com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor (file:/C:/Users/ShashiKumarSidhhalin/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.10.4/semanticdb-javac-0.10.4.jar)
+WARNING: Please consider reporting this to the maintainers of class com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor
+WARNING: sun.misc.Unsafe::arrayBaseOffset will be removed in a future release.
+2025.04.29 16:52:08 INFO  time: compiled EnrollmentAPI-test in 3.58s
+2025.04.29 16:52:09 WARN  Could not load snapshot text for C:\Users\ShashiKumarSidhhalin\Desktop\MyRestAssureProject\RestAssureLearn\src\test\java\cucumber\options\TestRunner.java
+2025.04.29 16:52:10 WARN  Could not load snapshot text for C:\Users\ShashiKumarSidhhalin\Desktop\MyRestAssureProject\RestAssureLearn\src\test\java\cucumber\options\TestRunner.java
+2025.04.29 16:52:11 INFO  compiling enrollmentapi-test (1 java source)
+2025.04.29 16:52:14 WARN  Unexpected javac output: WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::arrayBaseOffset has been called by com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor (file:/C:/Users/ShashiKumarSidhhalin/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.10.4/semanticdb-javac-0.10.4.jar)
+WARNING: Please consider reporting this to the maintainers of class com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor
+WARNING: sun.misc.Unsafe::arrayBaseOffset will be removed in a future release.
+2025.04.29 16:52:14 INFO  time: compiled EnrollmentAPI-test in 3.2s
+2025.04.29 16:52:26 INFO  compiling enrollmentapi-test (1 java source)
+2025.04.29 16:52:30 WARN  Unexpected javac output: WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::arrayBaseOffset has been called by com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor (file:/C:/Users/ShashiKumarSidhhalin/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.10.4/semanticdb-javac-0.10.4.jar)
+WARNING: Please consider reporting this to the maintainers of class com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor
+WARNING: sun.misc.Unsafe::arrayBaseOffset will be removed in a future release.
+2025.04.29 16:52:30 INFO  time: compiled EnrollmentAPI-test in 4.07s
+2025.04.29 16:56:23 INFO  compiling enrollmentapi-test (1 java source)
+2025.04.29 16:56:26 WARN  Unexpected javac output: WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::arrayBaseOffset has been called by com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor (file:/C:/Users/ShashiKumarSidhhalin/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.10.4/semanticdb-javac-0.10.4.jar)
+WARNING: Please consider reporting this to the maintainers of class com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor
+WARNING: sun.misc.Unsafe::arrayBaseOffset will be removed in a future release.
+2025.04.29 16:56:26 INFO  time: compiled EnrollmentAPI-test in 3.19s
+Apr 29, 2025 4:57:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2249
+2025.04.29 16:57:54 INFO  compiling enrollmentapi-test (1 java source)
+2025.04.29 16:57:57 WARN  Unexpected javac output: WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::arrayBaseOffset has been called by com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor (file:/C:/Users/ShashiKumarSidhhalin/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.10.4/semanticdb-javac-0.10.4.jar)
+WARNING: Please consider reporting this to the maintainers of class com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor
+WARNING: sun.misc.Unsafe::arrayBaseOffset will be removed in a future release.
+2025.04.29 16:57:57 INFO  time: compiled EnrollmentAPI-test in 2.82s
+2025.04.29 17:01:02 INFO  compiling enrollmentapi-test (1 java source)
+2025.04.29 17:01:05 WARN  Unexpected javac output: WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::arrayBaseOffset has been called by com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor (file:/C:/Users/ShashiKumarSidhhalin/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.10.4/semanticdb-javac-0.10.4.jar)
+WARNING: Please consider reporting this to the maintainers of class com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor
+WARNING: sun.misc.Unsafe::arrayBaseOffset will be removed in a future release.
+2025.04.29 17:01:05 INFO  time: compiled EnrollmentAPI-test in 2.66s
