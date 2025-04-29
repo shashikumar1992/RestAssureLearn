@@ -11,7 +11,6 @@ Feature: Validate All Enrollment API With positive Scenario.
     Examples: 
       | fname  | lname | gmail          | phoneNumber  | message                                                                                                       |
       | _      | _     | _              | 789-963-4855 | Enrollment status available.                                                                                  |
-      #| shashi | kumar | shashi@hep.com | 789-963-4855 | Email already in use. Please click {here} and enter your email and pin or choose a different email to enroll. |
 
   @continueEnrollment
   Scenario: Verify the continueEnrollment API response
@@ -36,7 +35,7 @@ Feature: Validate All Enrollment API With positive Scenario.
 
     Examples: 
       | AccountNumber   | RoutingNumber | message                                               |
-      | 877573753738462 |     121000358 | Account number and routing number added successfully. |
+      | 74737357357353 |     121000358 | Account number and routing number added successfully. |
 
   @confirmCdw
   Scenario Outline: Verify the confirmCdw API response

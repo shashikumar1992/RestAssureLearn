@@ -20,11 +20,9 @@ public class Helper {
 
 		if (reqspec == null) {
 			PrintStream log = null;
-			try {
-				log = new PrintStream(new FileOutputStream("loggig.txt"));
-			} catch (Exception e) {
-				e.printStackTrace();
-			}
+
+			log = new PrintStream(new FileOutputStream("loggig.txt"));
+
 			reqspec = given().filter(RequestLoggingFilter.logRequestTo(log))
 					.filter(ResponseLoggingFilter.logResponseTo(log)).contentType("application/json");
 		}

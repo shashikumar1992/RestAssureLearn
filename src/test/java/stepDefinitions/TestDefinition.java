@@ -19,7 +19,7 @@ import utility.Helper;
 import utility.TestDataBuild;
 import utility.readProperty;
 
-public class TestDefenation extends Helper {
+public class TestDefinition   extends Helper {
 
 	static RequestSpecification req;
 	static Response response;
