@@ -26,7 +26,7 @@ public class Helper {
     static RequestSpecification reqspec;
     static Response resspec;
 
-    public static RequestSpecification requestSpesification() {
+    public static RequestSpecification requestSpecsification() {
         baseURI = ReadProperty.getValueBykey("BaseUrl");
 
         if (reqspec == null) {

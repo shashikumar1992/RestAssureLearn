@@ -1928,3 +1928,8 @@ WARNING: sun.misc.Unsafe::arrayBaseOffset has been called by com.sourcegraph.sha
 WARNING: Please consider reporting this to the maintainers of class com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor
 WARNING: sun.misc.Unsafe::arrayBaseOffset will be removed in a future release.
 2025.04.29 17:01:05 INFO  time: compiled EnrollmentAPI-test in 2.66s
+Apr 29, 2025 5:15:02 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 29, 2025 5:16:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint consume
+WARNING: Unkown message type.
+2025.04.29 17:16:39 INFO  Shut down connection with build server.

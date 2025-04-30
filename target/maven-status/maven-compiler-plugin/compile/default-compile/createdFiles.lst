@@ -1,0 +1,13 @@
+utility\TestDataBuild.class
+pojoClass\AccountDetailsInfo.class
+pojoClass\WebHookInfo.class
+utility\APIResource.class
+pojoClass\ConsumerInfo.class
+pojoClass\ContinueConsumerInfo$Payload.class
+pojoClass\AccountDetailsInfo$Payload.class
+pojoClass\DepositWithdrawalInfo.class
+pojoClass\ContinueConsumerInfo.class
+utility\FakeEmailGenerater.class
+utility\ReadProperty.class
+utility\Helper.class
+pojoClass\DepositWithdrawalInfo$Payload.class

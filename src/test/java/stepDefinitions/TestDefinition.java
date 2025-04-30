@@ -37,7 +37,7 @@ public class TestDefinition   extends Helper {
 			email = consumerData.get(2);
 		}
 		partner = partnerid;
-		req = given().spec(requestSpesification())
+		req = given().spec(requestSpecsification())
 				.body(TestDataBuild.setConsumerData(fname, lname, email, phoneNumber, partner));
 	}
 
@@ -106,7 +106,7 @@ public class TestDefinition   extends Helper {
 
 	@Given("Continue Enrollment with other basic details")
 	public void continue_enrollment_with_other_basic_details() {
-		req = given().spec(requestSpesification()).body(TestDataBuild.setContinueConsumerData(
+		req = given().spec(requestSpecsification()).body(TestDataBuild.setContinueConsumerData(
 				response.jsonPath().getString("payload.fname"), response.jsonPath().getString("payload.lname"),
 				response.jsonPath().getString("payload.email_address"),
 				response.jsonPath().getString("payload.mobile_phone"), consumer_public_key, consumerAccessToken));
@@ -114,18 +114,18 @@ public class TestDefinition   extends Helper {
 
 	@Given("Exit IAV and continue Enrollment with CDW")
 	public void exit_iav_and_continue_enrollment_with_cdw() {
-		req = given().spec(requestSpesification()).body(TestDataBuild.setWebHookInfo(partnerid, consumer_id));
+		req = given().spec(requestSpecsification()).body(TestDataBuild.setWebHookInfo(partnerid, consumer_id));
 	}
 
 	@Given("Add account {string} and routing {string} to continue Enrollment")
 	public void add_account_and_routing_to_continue_enrollment(String AccountNumber, String RoutingNumber) {
-		req = given().spec(requestSpesification()).body(TestDataBuild.setAccountDeatilsInfo(AccountNumber,
+		req = given().spec(requestSpecsification()).body(TestDataBuild.setAccountDeatilsInfo(AccountNumber,
 				RoutingNumber, consumer_public_key, consumerAccessToken, partnerid));
 	}
 
 	@Given("Add deposit {string} and withdrawal {string} to complete Enrollment")
 	public void add_deposit_and_withdrawal_to_complete_enrollment(String deposit, String withdrow) {
-		req = given().spec(requestSpesification()).body(TestDataBuild.setDepositWithdrawalInfo(deposit, withdrow,
+		req = given().spec(requestSpecsification()).body(TestDataBuild.setDepositWithdrawalInfo(deposit, withdrow,
 				consumer_public_key, consumerAccessToken, partnerid));
 	}
 

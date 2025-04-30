@@ -1,16 +1,20 @@
 Feature: Validate All Enrollment APIs with Positive Scenarios.
 
+  #As a user, I want to validate all the enrollment APIs with positive scenarios.
+  # So that I can ensure the APIs are working as expected.
   @startEnrollment
   Scenario Outline: Verify the create consumer API response
+
     Given Register a consumer with partner 'Partner' using details '<fname>', '<lname>', '<gmail>', and '<phoneNumber>'.
     When send the "CREATE_CONSUMER_API" request with "POST" method
     Then response status code should be "200"
     And response message should be "<message>"
     And Extract "accessToken" and "publicKey" from response
 
-    Examples: 
-      | fname  | lname | gmail          | phoneNumber  | message|
-      | _   | _   | _ | 789-963-4855 | Enrollment status available.|
+
+    Examples:
+      | fname | lname | gmail | phoneNumber  | message                      |
+      | _     | _     | _     | 789-963-4855 | Enrollment status available. |
 
   @ContinueEnrollment
   Scenario: Verify the continueEnrollment API response
@@ -34,8 +38,8 @@ Feature: Validate All Enrollment APIs with Positive Scenarios.
     Then response status code should be "200"
     And response message should be "<message>"
 
-    Examples: 
-      | AccountNumber   | RoutingNumber | message                                               |
+    Examples:
+      | AccountNumber  | RoutingNumber | message                                               |
       | 74737357357353 | 121000358     | Account number and routing number added successfully. |
 
   @ConfirmCdw
@@ -47,9 +51,9 @@ Feature: Validate All Enrollment APIs with Positive Scenarios.
     # The "enrollment_complete" notification indicates that the enrollment process has been successfully completed.
     And Notification should be "enrollment_complete"
 
-    Examples: 
+    Examples:
       | DepositAmount | WithdrawalAmount | message                                        |
-      |          0.09 |             0.08 | Deposit and Withdrawal match values on record. |
-    
+      | 0.09          | 0.08             | Deposit and Withdrawal match values on record. |
 
-    
+
+

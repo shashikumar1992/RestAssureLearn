@@ -11,9 +11,9 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "emailAddress": "AlvertaMosciski@gmail.com",
-    "firstName": "Alverta",
-    "lastName": "Mosciski",
+    "emailAddress": "ParkerOsinski@gmail.com",
+    "firstName": "Parker",
+    "lastName": "Osinski",
     "pin": "9394",
     "partnerId": "MTI3",
     "mobilePhoneNumber": "789-963-4855",
@@ -32,9 +32,9 @@ Body:
     ]
 }
 HTTP/1.1 200 OK
-Date: Tue, 29 Apr 2025 11:29:07 GMT
+Date: Wed, 30 Apr 2025 07:45:35 GMT
 Content-Type: application/json; charset=utf-8
-Content-Length: 1501
+Content-Length: 1498
 Connection: keep-alive
 Access-Control-Expose-Headers: Request-Context
 Cache-Control: no-cache
@@ -48,7 +48,7 @@ X-Powered-By: ASP.NET
 X-Frame-Options: ALLOW-FROM http://localhost:58402/ http://localhost:61309/
 cf-cache-status: DYNAMIC
 Server: cloudflare
-CF-RAY: 937e7596ea3e79ef-HYD
+CF-RAY: 93856b76a86d79f8-HYD
 
 {
     "status": true,
@@ -63,15 +63,15 @@ CF-RAY: 937e7596ea3e79ef-HYD
         "last_redirect": "",
         "last_fallback": "",
         "fallback": "",
-        "consumer_id": "140628",
-        "enrollment_id": "39843",
-        "email_address": "alvertamosciski@gmail.com",
-        "consumer_public_key": "LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0KTUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUF2M2JycmhZQ0dmTVlyZHBhZ1k0bwp0V3RseEUrOTFEVUJmZVJ5QnJ0UCtOMDR5QWkyemxydjRpeVRrUk1KZElQL3FRNUcwTldaY29ucXdyRmJlakd4CnFraVhlYTFEbXVkRUpINzlXa2NsWHRaOGlEU3ZtMFIzUE1LcWRzWWUxRTlFTzNVYmhDYXRZWHlVaksxUzNvT1cKKzlRNmFKSUdSK1ozM1UvNkNJbjNNMHBWbENJUCtJN282cEZaVWs1dzVYYURySWVRc2Uxd0tOYXlSeUFZYlllUQpsblNwbjQ4Z29ncUZpZ0lQbmN0ZTRpQUJQRVBXMVl4N0hlZXZUbk1ldzhLOTZqdEdLcXdLMXVpWFlGRHV0N0t4CjMyT0h5VTluTTFIcXcrcktDR1ZlU0hzc0M0WFVDUnRTMkRlWldqN0VqNEVFOThZOER4Wjl2ZUNVcXlBN0trWHAKUlFJREFRQUIKLS0tLS1FTkQgUFVCTElDIEtFWS0tLS0tCg==",
-        "consumerAccessToken": "da896a06ce44a765bcebd931ed8b461e6786e77a",
+        "consumer_id": "140635",
+        "enrollment_id": "39849",
+        "email_address": "parkerosinski@gmail.com",
+        "consumer_public_key": "LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0KTUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUFzTGFsRkpEN1g4ekwyWTFUUDNDSgpyOEVUTG9KNHpFK0dwSVRob3gvVVY3SkM2TzlCYlJENlpoVDR1V3JlRkV6ZnA0NVpteEZ0UWsrODIxdExTWUZBClhBWE9BRW8xckxwUWwvd29GWXFScXI4ZXpkUDByWjQ4ZnEyaE9udEtDcDEvYkE2NGVTbDE3dVAxaEFCMzhScE8KMjRkUnFHano5cWtOalRmNTRGYnJXV2Uxa2FNTTRYQnpCRjQwNnQxUEdETFpiYkVDUEtaUkdSTDFFNzZqYjgySQpIeThWVndEMklzQzFvRlErWU1RUnlMenY4Rk1UYkk2emI0eFRoVUdGYnhCd1VzRFdrM3d1bjFBWjB6YUV6R2drCkFzdmwwcm5vZ29CdXE2bWczei80bExkbWFTWDF4cE1IQ0ZXR2RPWEhQNmlyeDMvZmd2TGpDVHRRWElGc1AvOXUKandJREFRQUIKLS0tLS1FTkQgUFVCTElDIEtFWS0tLS0tCg==",
+        "consumerAccessToken": "12a12b7c3aac0dbc6100e144ee0facdc8b6344ed",
         "itemId": null,
         "merchant_id": "127000256000017",
-        "fname": "Alverta",
-        "lname": "Mosciski",
+        "fname": "Parker",
+        "lname": "Osinski",
         "bank_source": "",
         "cdw_action_code": "730",
         "cdw_redirect": "error",
@@ -82,9 +82,9 @@ CF-RAY: 937e7596ea3e79ef-HYD
         "mobile_phone": "7899634855",
         "cdw_extended_delay": 0
     },
-    "partnerCustomerNumber": "8e915841-dac1-45bc-bb7c-a781e2c5c906",
+    "partnerCustomerNumber": "f4403089-542f-4921-a0ab-f1bbc7e3acde",
     "error": null,
-    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJQYXJ0bmVySWQiOiJNVEkzIiwiQ29uc3VtZXJJZCI6IjE0MDYyOCIsImV4cCI6MTc0NTkyNzk0NywiaXNzIjoiU3BpcmUiLCJhdWQiOiJDb25zdW1lckVucm9sbG1lbnQifQ.XZkAIAWy6-11zuBqwWMWV_NJo-MdBPJOTMqWipgb-T4"
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJQYXJ0bmVySWQiOiJNVEkzIiwiQ29uc3VtZXJJZCI6IjE0MDYzNSIsImV4cCI6MTc0NjAwMDkzNCwiaXNzIjoiU3BpcmUiLCJhdWQiOiJDb25zdW1lckVucm9sbG1lbnQifQ.HYnOwFbjcPAt-oJHEvAQwGa9ipnyKLLWPkPJQxZ9-FY"
 }
 Request method:	POST
 Request URI:	https://bimhep-qa.bimnetworkstech.com/api/hostedEnrollment/continueEnrollment
@@ -100,26 +100,26 @@ Multiparts:		<none>
 Body:
 {
     "partnerId": "MTI3",
-    "state": "NY",
-    "payload": {
-        "publicKey": "LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0KTUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUF2M2JycmhZQ0dmTVlyZHBhZ1k0bwp0V3RseEUrOTFEVUJmZVJ5QnJ0UCtOMDR5QWkyemxydjRpeVRrUk1KZElQL3FRNUcwTldaY29ucXdyRmJlakd4CnFraVhlYTFEbXVkRUpINzlXa2NsWHRaOGlEU3ZtMFIzUE1LcWRzWWUxRTlFTzNVYmhDYXRZWHlVaksxUzNvT1cKKzlRNmFKSUdSK1ozM1UvNkNJbjNNMHBWbENJUCtJN282cEZaVWs1dzVYYURySWVRc2Uxd0tOYXlSeUFZYlllUQpsblNwbjQ4Z29ncUZpZ0lQbmN0ZTRpQUJQRVBXMVl4N0hlZXZUbk1ldzhLOTZqdEdLcXdLMXVpWFlGRHV0N0t4CjMyT0h5VTluTTFIcXcrcktDR1ZlU0hzc0M0WFVDUnRTMkRlWldqN0VqNEVFOThZOER4Wjl2ZUNVcXlBN0trWHAKUlFJREFRQUIKLS0tLS1FTkQgUFVCTElDIEtFWS0tLS0tCg==",
-        "accessToken": "da896a06ce44a765bcebd931ed8b461e6786e77a"
-    },
-    "lastName": "Mosciski",
-    "streetAddress": "48 ALLENSTOWN RD",
-    "firstName": "Alverta",
     "identificationType": "DL",
     "identificationNumber": "3454354545",
     "termsAndConditions": "true",
-    "mainPhoneNumber": "789-963-4855",
     "identificationState": "LA",
-    "dob": "12/19/2005",
-    "zipCode": "03275",
+    "state": "NY",
+    "payload": {
+        "publicKey": "LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0KTUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUFzTGFsRkpEN1g4ekwyWTFUUDNDSgpyOEVUTG9KNHpFK0dwSVRob3gvVVY3SkM2TzlCYlJENlpoVDR1V3JlRkV6ZnA0NVpteEZ0UWsrODIxdExTWUZBClhBWE9BRW8xckxwUWwvd29GWXFScXI4ZXpkUDByWjQ4ZnEyaE9udEtDcDEvYkE2NGVTbDE3dVAxaEFCMzhScE8KMjRkUnFHano5cWtOalRmNTRGYnJXV2Uxa2FNTTRYQnpCRjQwNnQxUEdETFpiYkVDUEtaUkdSTDFFNzZqYjgySQpIeThWVndEMklzQzFvRlErWU1RUnlMenY4Rk1UYkk2emI0eFRoVUdGYnhCd1VzRFdrM3d1bjFBWjB6YUV6R2drCkFzdmwwcm5vZ29CdXE2bWczei80bExkbWFTWDF4cE1IQ0ZXR2RPWEhQNmlyeDMvZmd2TGpDVHRRWElGc1AvOXUKandJREFRQUIKLS0tLS1FTkQgUFVCTElDIEtFWS0tLS0tCg==",
+        "accessToken": "12a12b7c3aac0dbc6100e144ee0facdc8b6344ed"
+    },
+    "firstName": "Parker",
+    "lastName": "Osinski",
     "city": "ALLENSTOWN",
+    "streetAddress": "48 ALLENSTOWN RD",
+    "dob": "12/19/2005",
+    "mainPhoneNumber": "789-963-4855",
+    "zipCode": "03275",
     "apartmentNumber": null
 }
 HTTP/1.1 200 OK
-Date: Tue, 29 Apr 2025 11:29:13 GMT
+Date: Wed, 30 Apr 2025 07:45:42 GMT
 Content-Type: application/json; charset=utf-8
 Content-Length: 435
 Connection: keep-alive
@@ -135,7 +135,7 @@ X-Powered-By: ASP.NET
 X-Frame-Options: ALLOW-FROM http://localhost:58402/ http://localhost:61309/
 cf-cache-status: DYNAMIC
 Server: cloudflare
-CF-RAY: 937e75bd1c9f79db-HYD
+CF-RAY: 93856ba99bdf79da-HYD
 
 {
     "status": true,
@@ -146,7 +146,7 @@ CF-RAY: 937e75bd1c9f79db-HYD
     ],
     "notification": "",
     "payload": {
-        "redirect": "https://bimsdk-qa.bimnetworkstech.com/IAVRed/Link/140628/127",
+        "redirect": "https://bimsdk-qa.bimnetworkstech.com/IAVRed/Link/140635/127",
         "action_code": 171,
         "fallback": "redirectbankselect",
         "auth_operation": "CHKENROLL",
@@ -169,10 +169,10 @@ Multiparts:		<none>
 Body:
 {
     "partnerId": "MTI3",
-    "consumerId": "140628"
+    "consumerId": "140635"
 }
 HTTP/1.1 200 OK
-Date: Tue, 29 Apr 2025 11:29:14 GMT
+Date: Wed, 30 Apr 2025 07:45:44 GMT
 Content-Type: application/json; charset=utf-8
 Content-Length: 122
 Connection: keep-alive
@@ -188,7 +188,7 @@ X-Powered-By: ASP.NET
 X-Frame-Options: ALLOW-FROM http://localhost:58402/ http://localhost:61309/
 cf-cache-status: DYNAMIC
 Server: cloudflare
-CF-RAY: 937e75dd4fc779d5-HYD
+CF-RAY: 93856bd2788b79e9-HYD
 
 true
 Request method:	POST
@@ -208,14 +208,14 @@ Body:
     "routingNumber": "121000358",
     "partnerId": "MTI3",
     "payload": {
-        "publicKey": "LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0KTUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUF2M2JycmhZQ0dmTVlyZHBhZ1k0bwp0V3RseEUrOTFEVUJmZVJ5QnJ0UCtOMDR5QWkyemxydjRpeVRrUk1KZElQL3FRNUcwTldaY29ucXdyRmJlakd4CnFraVhlYTFEbXVkRUpINzlXa2NsWHRaOGlEU3ZtMFIzUE1LcWRzWWUxRTlFTzNVYmhDYXRZWHlVaksxUzNvT1cKKzlRNmFKSUdSK1ozM1UvNkNJbjNNMHBWbENJUCtJN282cEZaVWs1dzVYYURySWVRc2Uxd0tOYXlSeUFZYlllUQpsblNwbjQ4Z29ncUZpZ0lQbmN0ZTRpQUJQRVBXMVl4N0hlZXZUbk1ldzhLOTZqdEdLcXdLMXVpWFlGRHV0N0t4CjMyT0h5VTluTTFIcXcrcktDR1ZlU0hzc0M0WFVDUnRTMkRlWldqN0VqNEVFOThZOER4Wjl2ZUNVcXlBN0trWHAKUlFJREFRQUIKLS0tLS1FTkQgUFVCTElDIEtFWS0tLS0tCg==",
-        "accessToken": "da896a06ce44a765bcebd931ed8b461e6786e77a"
+        "publicKey": "LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0KTUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUFzTGFsRkpEN1g4ekwyWTFUUDNDSgpyOEVUTG9KNHpFK0dwSVRob3gvVVY3SkM2TzlCYlJENlpoVDR1V3JlRkV6ZnA0NVpteEZ0UWsrODIxdExTWUZBClhBWE9BRW8xckxwUWwvd29GWXFScXI4ZXpkUDByWjQ4ZnEyaE9udEtDcDEvYkE2NGVTbDE3dVAxaEFCMzhScE8KMjRkUnFHano5cWtOalRmNTRGYnJXV2Uxa2FNTTRYQnpCRjQwNnQxUEdETFpiYkVDUEtaUkdSTDFFNzZqYjgySQpIeThWVndEMklzQzFvRlErWU1RUnlMenY4Rk1UYkk2emI0eFRoVUdGYnhCd1VzRFdrM3d1bjFBWjB6YUV6R2drCkFzdmwwcm5vZ29CdXE2bWczei80bExkbWFTWDF4cE1IQ0ZXR2RPWEhQNmlyeDMvZmd2TGpDVHRRWElGc1AvOXUKandJREFRQUIKLS0tLS1FTkQgUFVCTElDIEtFWS0tLS0tCg==",
+        "accessToken": "12a12b7c3aac0dbc6100e144ee0facdc8b6344ed"
     }
 }
 HTTP/1.1 200 OK
-Date: Tue, 29 Apr 2025 11:29:18 GMT
+Date: Wed, 30 Apr 2025 07:45:49 GMT
 Content-Type: application/json; charset=utf-8
-Content-Length: 447
+Content-Length: 445
 Connection: keep-alive
 Access-Control-Expose-Headers: Request-Context
 Cache-Control: no-cache
@@ -229,7 +229,7 @@ X-Powered-By: ASP.NET
 X-Frame-Options: ALLOW-FROM http://localhost:58402/ http://localhost:61309/
 cf-cache-status: DYNAMIC
 Server: cloudflare
-CF-RAY: 937e75e2bb7579d5-HYD
+CF-RAY: 93856be0786079d5-HYD
 
 {
     "status": true,
@@ -245,8 +245,8 @@ CF-RAY: 937e75e2bb7579d5-HYD
         "auth_operation": "CHKBNKADD",
         "auth_response_code": "OK",
         "auth_response_verbiage": "CONFIRMATION - ACCOUNT IN GOOD STANDING",
-        "email_address": "alvertamosciski@gmail.com",
-        "consumer_id": "140628"
+        "email_address": "parkerosinski@gmail.com",
+        "consumer_id": "140635"
     },
     "error": null
 }
@@ -265,16 +265,16 @@ Body:
 {
     "partnerId": "MTI3",
     "payload": {
-        "publicKey": "LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0KTUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUF2M2JycmhZQ0dmTVlyZHBhZ1k0bwp0V3RseEUrOTFEVUJmZVJ5QnJ0UCtOMDR5QWkyemxydjRpeVRrUk1KZElQL3FRNUcwTldaY29ucXdyRmJlakd4CnFraVhlYTFEbXVkRUpINzlXa2NsWHRaOGlEU3ZtMFIzUE1LcWRzWWUxRTlFTzNVYmhDYXRZWHlVaksxUzNvT1cKKzlRNmFKSUdSK1ozM1UvNkNJbjNNMHBWbENJUCtJN282cEZaVWs1dzVYYURySWVRc2Uxd0tOYXlSeUFZYlllUQpsblNwbjQ4Z29ncUZpZ0lQbmN0ZTRpQUJQRVBXMVl4N0hlZXZUbk1ldzhLOTZqdEdLcXdLMXVpWFlGRHV0N0t4CjMyT0h5VTluTTFIcXcrcktDR1ZlU0hzc0M0WFVDUnRTMkRlWldqN0VqNEVFOThZOER4Wjl2ZUNVcXlBN0trWHAKUlFJREFRQUIKLS0tLS1FTkQgUFVCTElDIEtFWS0tLS0tCg==",
-        "accessToken": "da896a06ce44a765bcebd931ed8b461e6786e77a"
+        "publicKey": "LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0KTUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUFzTGFsRkpEN1g4ekwyWTFUUDNDSgpyOEVUTG9KNHpFK0dwSVRob3gvVVY3SkM2TzlCYlJENlpoVDR1V3JlRkV6ZnA0NVpteEZ0UWsrODIxdExTWUZBClhBWE9BRW8xckxwUWwvd29GWXFScXI4ZXpkUDByWjQ4ZnEyaE9udEtDcDEvYkE2NGVTbDE3dVAxaEFCMzhScE8KMjRkUnFHano5cWtOalRmNTRGYnJXV2Uxa2FNTTRYQnpCRjQwNnQxUEdETFpiYkVDUEtaUkdSTDFFNzZqYjgySQpIeThWVndEMklzQzFvRlErWU1RUnlMenY4Rk1UYkk2emI0eFRoVUdGYnhCd1VzRFdrM3d1bjFBWjB6YUV6R2drCkFzdmwwcm5vZ29CdXE2bWczei80bExkbWFTWDF4cE1IQ0ZXR2RPWEhQNmlyeDMvZmd2TGpDVHRRWElGc1AvOXUKandJREFRQUIKLS0tLS1FTkQgUFVCTElDIEtFWS0tLS0tCg==",
+        "accessToken": "12a12b7c3aac0dbc6100e144ee0facdc8b6344ed"
     },
-    "depositAmount": "0.09",
-    "withdrawalAmount": "0.08"
+    "withdrawalAmount": "0.08",
+    "depositAmount": "0.09"
 }
 HTTP/1.1 200 OK
-Date: Tue, 29 Apr 2025 11:29:23 GMT
+Date: Wed, 30 Apr 2025 07:45:56 GMT
 Content-Type: application/json; charset=utf-8
-Content-Length: 369
+Content-Length: 367
 Connection: keep-alive
 Access-Control-Expose-Headers: Request-Context
 Cache-Control: no-cache
@@ -288,7 +288,7 @@ X-Powered-By: ASP.NET
 X-Frame-Options: ALLOW-FROM http://localhost:58402/ http://localhost:61309/
 cf-cache-status: DYNAMIC
 Server: cloudflare
-CF-RAY: 937e75f929e879f2-HYD
+CF-RAY: 93856bfac8be79f5-HYD
 
 {
     "status": true,
@@ -304,8 +304,8 @@ CF-RAY: 937e75f929e879f2-HYD
         "auth_operation": "",
         "auth_response_code": "",
         "auth_response_verbiage": "",
-        "email_address": "alvertamosciski@gmail.com",
-        "consumer_id": "140628",
+        "email_address": "parkerosinski@gmail.com",
+        "consumer_id": "140635",
         "rewards": null
     }
 }
